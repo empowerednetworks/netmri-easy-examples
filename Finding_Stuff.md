@@ -6,7 +6,7 @@ The NetMRI API is documented as a living document collection on the appliance it
 
 ## Query Operations
 
-One of the biggest reasons to write external scripts in NetMRI is to leverage the rich collection of data that exists in the system to confirm or enrich data in other monitoring and management systems.  It follows that the general category of "finding stuff" will be high on the list of things to do for an integration developer.  The API represents the only programmatic way to access the data in the system (that it, there's no direct SQL interface available.)
+One of the biggest reasons to write external scripts in NetMRI is to leverage the rich collection of data that exists in the system to confirm or enrich data in other monitoring and management systems.  It follows that the general category of "finding stuff" will be high on the list of things to do for an integration developer.  The API represents the only programmatic way to access the data in the system (that is, there's no direct SQL interface available.)
 
 Generally, all the objects in NetMRI expose the same three query methods for finding stuff of that particular class. They work the same in each class, differing only in the specific properties that can be used to delimit the searches or that are returned from the operations.  In order of performance (best to worst) the methods are:
 
