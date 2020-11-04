@@ -54,11 +54,11 @@ def get_args(args=None):
     config_file = ""
     description = "An example of using the Device broker to search for a device by name."
     try:
-        with open("examples.local") as dev_f:
+        with open("../examples.local") as dev_f:
             print("Using local config " + dev_f.name + ".")
-            config_file = "examples.local"
+            config_file = "../examples.local"
     except IOError:
-        config_file = "examples.conf"
+        config_file = "../examples.conf"
     parser = argparse.ArgumentParser(description=description)
     parser.add_argument("-c", "--configfile",
                         help="/path/to/configfile",
